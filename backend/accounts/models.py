@@ -4,5 +4,5 @@ from django.db import models
 
 class User(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4)
-    first_name = models.CharField(max_length=60)
-    last_name = models.CharField(max_length=60)
+    account_id = models.CharField(max_length=20)
+    nickname = models.CharField(max_length=20)
