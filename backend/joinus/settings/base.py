@@ -36,7 +36,6 @@ INSTALLED_APPS = [
     'article.apps.ArticleConfig',
     'community.apps.CommunityConfig',
     'freetalk.apps.FreetalksConfig',
-
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
